@@ -1,0 +1,25 @@
+
+.ButtonSec
+{
+    height: 500px;
+    width:800px;
+    margin-top: 80px;
+    border: 5px solid black;    
+}
+
+:root {
+    --primaryColor: #00b7ff;
+    --secondaryColor: #6c757d;
+    }
+    button {
+    font-size: 25px;
+    color: white;
+    border: none;
+    padding: 15px;
+    }
+    #primaryBtn {
+    background-color: var(--primaryColor);
+    }
+    #secondaryBtn {
+    background-color: var(--secondaryColor);
+    }
